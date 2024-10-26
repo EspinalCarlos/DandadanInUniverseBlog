@@ -62,7 +62,8 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
 }
 
 .shortcut_btn li{
@@ -86,7 +87,7 @@ body{
     top: 300px; 
     left: 20px; 
     height: 500px;
-    width: 300px;
+    width: 325px;
     background-color: #410e0e; 
     border: 8px solid #000000
 }
@@ -97,7 +98,7 @@ body{
     height: 40px;
     filter: invert(100%);
     top: 150px;
-    left: 175px;
+    left: 215px;
 }
 
 #devolver{
@@ -105,7 +106,7 @@ body{
     height: 40px;
     filter: invert(100%);
     top: 150px;
-    left: 55px;
+    left: 50px;
     transform: scaleX(-1);
 }
 
@@ -116,7 +117,7 @@ body{
     margin-top: 20px;
     position: absolute;
     top: 200px;
-    right: 75px;
+    right: 80px;
 }
 
 #rolaheader{
@@ -178,7 +179,7 @@ body{
     bottom: 100px;
 }
 
-#TurboVieja{
+#TurboGranny{
     position: absolute;
     background-color: #410e0e;
     left: 550px;
@@ -289,4 +290,120 @@ footer{
 }
 
 
+#Glorp{
+    position: absolute;
+    background-color: #410e0e;
+    top: 2650px;
+    left: 550px;
+    border: 8px #000000 solid;
+    height: 500px;
+    width: 700px;
+}
+
+#glorpa{
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #ffffff;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    right: 180px;
+    top: 20px;
+}
+
+#glorpatext{
+    max-width: fit-content;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    margin: 25px;
+    text-align: left;
+}
+
+#glorpayay{
+    height: 200px;
+    position: relative;
+    left: 250px;
+}
+
+#lmaoglorp{
+    height: 150px;
+    position: relative;
+    left: 250px;
+    bottom: 500px;
+}
+
+#Vids{
+    position: absolute; 
+    top: 1000px; 
+    left: 20px; 
+    height: 500px;
+    width: 325px;
+    background-color: #410e0e; 
+    border: 8px solid #000000
+}
+
+#links{
+    text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff;
+    color: black;
+    font-size: 40px;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.link_btn{
+    padding: 10px;
+}
+
+.link_btn li{
+    margin: 20px;
+}
+
+.link_btn ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+.link_btn a {
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #ffffff;
+    text-decoration: none; 
+    color: black; 
+    padding: 8px 16px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+    font-size: 30px;
+}
+
+#grannyform{
+    position: absolute; 
+    top: 1800px; 
+    left: 20px; 
+    height: 500px;
+    width: 325px;
+    background-color: #410e0e; 
+    border: 8px solid #000000
+}
+
+#headtran{
+    text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff;
+    color: black;
+    font-size: 40px;
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+#turbooka{
+    height: 355px;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
 
