@@ -66,7 +66,7 @@ body{
 }
 
 .shortcut_btn li{
-    margin: 10px;
+    margin-left: 330px;
 }
 
 .shortcut_btn a {
@@ -84,17 +84,39 @@ body{
 #rola{
     position: absolute; 
     top: 300px; 
-    left: 15px; 
-    height: 300px;
+    left: 20px; 
+    height: 500px;
     width: 300px;
     background-color: #410e0e; 
+    border: 8px solid #000000
+}
+
+
+#fast-forward{
+    position: absolute;
+    height: 40px;
+    filter: invert(100%);
+    top: 150px;
+    left: 175px;
+}
+
+#devolver{
+    position: absolute;
+    height: 40px;
+    filter: invert(100%);
+    top: 150px;
+    left: 55px;
+    transform: scaleX(-1);
 }
 
 #playbutton {
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
     filter: invert(100%);
     margin-top: 20px;
+    position: absolute;
+    top: 200px;
+    right: 75px;
 }
 
 #rolaheader{
@@ -115,9 +137,156 @@ body{
 #About{
     position : absolute;
     background-color: #410e0e;
-    left: 600px;
+    left: 550px;
     top: 300px;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 700px;
+    border: 8px solid #000000
+
 }
+
+#abt_title{
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #ffffff;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    right: 260px;
+    top: 20px;
+
+}
+
+#abt_text{
+    max-width: fit-content;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    margin: 25px;
+    text-align: left;
+}
+
+#AyaseTaka{
+    height: 400px;
+    position: relative;
+    left: 410px;
+    bottom: 100px;
+}
+
+#TurboVieja{
+    position: absolute;
+    background-color: #410e0e;
+    left: 550px;
+    top: 1050px;
+    border: 8px #000000 solid;
+    height: 500px;
+    width: 700px;
+}
+
+#tv_header{
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #ffffff;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    right: 180px;
+    top: 20px;
+}
+
+#tv_info{
+    max-width: fit-content;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    margin: 25px;
+    text-align: left;
+}
+
+#turboruK{
+    height: 220px;
+    position: relative;
+    filter: brightness(0.8);
+    left: -170px;
+    bottom: -20px;
+    border: #000000;
+}
+
+#turboruK2{
+    height: 220px;
+    position: relative;
+    filter: brightness(0.8);
+    left: 150px;
+    bottom: -20px;
+    border: #000000 solid 5px;
+}
+
+#turboruK3{
+    height: 220px;
+    position: relative;
+    filter: brightness(0.8);
+    left: 400px;
+    bottom: 750px;
+    
+}
+
+footer{
+    position: relative;
+    top: 3000px;
+}
+
+#Serpoians{
+    position: absolute;
+    background-color: #410e0e;
+    top: 1900px;
+    left: 550px;
+    border: 8px #000000 solid;
+    height: 500px;
+    width: 700px;
+}
+
+#serpoians{
+    text-shadow: 0 0 10px #ff0000, 0 0 10px #ffffff;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    right: 205px;
+    top: 20px;
+}
+
+#serpoinfo{
+    max-width: fit-content;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    margin: 25px;
+    text-align: left;
+}
+
+#serpng{
+    filter: grayscale(1);
+    height: 300px;
+    position: relative;
+    left: 350px
+
+}
+
+
 

@@ -6,7 +6,9 @@
     <title>Okapedia: Guia hacia lo oculto</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+    <audio id="otonoke">
+        <source src="Otonoke.mp3" type="audio/mpeg">
+    </audio>
 </head>
 <body>
     <center>
@@ -21,23 +23,99 @@
             <center>
                 <nav class="shortcut_btn">
                     <ul>
-                        <li><a href="#Home">Home</a></li>
                         <li><a href="#about">About</a></li>
+                        <li><a href="#Place">Place</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </center>
         </div>
+
+
+
         <div id="rola">
             <h2 id="rolaheader">Song</h2>
             <p id = rolaplaying>Otonoke - Creepy Nuts</p>
-            <img id = "playbutton" src='https://cdn-icons-png.flaticon.com/512/0/375.png'>
+            <img id = "fast-forward" src = "ff.png">
+            <img id = "devolver" src = "ff.png">
+            <img id = "playbutton" src='https://cdn-icons-png.flaticon.com/512/0/375.png' onclick="playOtonoke()">
         </div>
+
+
         <div id = "About"> 
             <h2 id = "abt_title">About</h2>
+            <p id = "abt_text">
+                Greetings, fellow earthling! I’m Ken Takakura, and welcome to my blog dedicated to the occult and the bizarre! Miss Ayase suggested that it would be a fun idea to document all our strange findings in one place. What better way to do that than with a public blog?
+
+                Ever since the Turbo Granny cursed me and snatched my family jewels, 
+                all sorts of paranormal and extraterrestrial occurrences have been happening 
+                to us. I’ll be sure to report on these experiences and include 
+                visual representations of the spirits or 
+                aliens that Miss Ayase and I must confront or befriend. Who would've thought starting a blog could be so fun!
+            </p>
+            <img id="AyaseTaka" src="momokarun.png">
         </div>
 
     </center>
+
+    <div id = "TurboVieja">
+        <center>
+            <h2 id = "tv_header">Turbo Granny</h2>
+            <p id = "tv_info"> I still remember my 
+                first encounter with the supernatural, way back when 
+                I met Miss Ayase. At the time, I was skeptical about the existence of ghosts; 
+                it all seemed so absurd to me. Science could explain most of the phenomena 
+                attributed to spirits! So, I made a bet with Miss Ayase: if I could find a 
+                spirit, I would become her gofer. We ended up discovering some incredible 
+                entities, but one in particular stands out: the Turbo Granny. 
+                Also known as the "100 Kilometer Grandma" in Japanese folklore, 
+                she had a notorious reputation. Anyone who dared to race her and lost would 
+                face dire consequences—she would 
+                claim their family jewels. And, well, that's exactly what happened to me... She’s proven to be a formidable opponent, 
+                but when she’s on our side, she can actually be quite the softie!</p>
+            </p>
+            <img id ="turboruK" src = "VStv.png">
+            <img id ="turboruK2" src = "Granny.png">
+            <img id ="turboruK3" src = "gato.png">
+
+        </center>
+    </div>
+
+    <div id = "Serpoians">
+        <center>
+            <h2 id = "serpoians"> Serpoians </h2>
+            <p id = "serpoinfo"> 
+                Ah yes, those were the aliens that attempted to experiment on Miss Ayase. 
+                Yes, ALIENS!! While I had always dreamed of encountering extraterrestrial life,
+                 these beings were anything but peaceful. They were determined to use 
+                 Miss Ayase for their experiments. 
+                 At that time, I was possessed by Turbo Granny and was ready to 
+                 sacrifice everything just to protect her. When we first met, 
+                 she stood up for me, and I knew I couldn’t let them do whatever 
+                 they pleased with her. Unfortunately, I was quickly overwhelmed; their 
+                 telekinetic abilities were far too strong for us. But in that moment 
+                 of desperation, Miss Ayase awakened her own powers and saved us both!
+            </p>
+            <img id ="serpng" src="serpo.png">
+        </center>
+    </div>
+
+
+
+
+
+    <script>
+        const audioElement = document.getElementById("otonoke");
+        audioElement.volume = 0.15
+
+        function playOtonoke(){
+            audioElement.play();
+        }
+
+    </script>
 </body>
+<footer> 
+    <h1>pls watch dandadan</h1>
+</footer>
 </html>
