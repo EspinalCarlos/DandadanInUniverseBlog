@@ -37,9 +37,9 @@
         <div id="rola">
             <h2 id="rolaheader">Song</h2>
             <p id = rolaplaying>Otonoke - Creepy Nuts</p>
-            <img id = "fast-forward" src = "ff.png">
-            <img id = "devolver" src = "ff.png">
-            <img id = "playbutton" src='https://cdn-icons-png.flaticon.com/512/0/375.png' onclick="playOtonoke()">
+            <img id = "fast-forward" src = "ff.png" onclick="forwardOtonoke()">
+            <img id = "devolver" src = "ff.png" onclick="rewindOtonoke()">
+            <img id = "playbutton" src='https://cdn-icons-png.flaticon.com/512/0/375.png' onclick="togglePlay()">
         </div>
 
 
@@ -135,11 +135,28 @@
 
 
     <script>
-        const audioElement = document.getElementById("otonoke");
+        var audioElement = document.getElementById("otonoke");
         audioElement.volume = 0.15
-
+        function togglePlay() {
+            var audio = document.getElementById("otonoke");
+            if (audio.paused) {
+                audio.play(); 
+            } else {
+                audio.pause(); 
+            }
+        }
         function playOtonoke(){
             audioElement.play();
+        }
+
+        function rewindOtonoke(){
+            var audio = document.getElementById("otonoke");
+            audio.currentTime -= 10;
+        }
+
+        function forwardOtonoke(){
+            var audio = document.getElementById("otonoke");
+            audio.currentTime += 10;
         }
 
     </script>
